@@ -164,7 +164,7 @@ Para testar a aplicação:
 
 ## 👥 Autores
 
-- Lenilson Alves
+- Hisleno Sostenes
 
 ## 📄 Licença
 
