@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  cadastro-usuarios:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cadastro-usuarios-app
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
