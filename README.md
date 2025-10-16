@@ -51,7 +51,7 @@ cadastro-usuarios/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/LenilsonAlves/Sistema-de-Cadastro-de-Usuario.git
+git clone https://github.com/Hisleno1/cadastro-de-usuario-final
 cd cadastro-usuarios
 ```
 
